@@ -38,7 +38,7 @@
 
   .lwj-demo-footer .bottom-bar::before,
   .lwj-demo-footer .bottom-bar::after {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     width: 100vw;
@@ -69,18 +69,7 @@
 </style>
 
 <footer class="lwj-demo-footer">
-  <a href="https://www.learnwithjason.dev"
-    >Created on <em>Learn With Jason</em></a
-  >
-  {% if meta.episode %}<a href="{{ meta.episode }}">Watch It Get Built</a>{%
-  endif %}{% if meta.tutorial %}<a href="{{ meta.tutorial }}">Tutorial</a>{%
-  endif %}{% if meta.repo %}<a href="https://github.com/{{ meta.repo }}"
-    >Source Code</a
-  >
-  <a
-    href="http://app.netlify.com/start/deploy?repository=https://github.com/{{ meta.repo }}?utm_source=learnwithjason&utm_medium=lwj-demo-footer-jl&utm_campaign=devex"
-    >Deploy Your Own Copy</a
-  >{% endif %}
+  <a href="https://github.com/harshtalks/serverless-stripe">Source Code</a>
 
   <div class="bottom-bar"></div>
 </footer>
